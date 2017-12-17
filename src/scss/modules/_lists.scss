@@ -1,0 +1,54 @@
+.prize-text {
+  font-size: 40px;
+  margin: 30px 0 0px;
+  line-height: 40px;
+}
+.prize-list {
+  list-style: none;
+  li {
+    //padding-left: 48px;
+    position: relative;
+    &:before {
+      width: 38px;
+      height: 38px;
+      display: block;
+      position: absolute;
+      right: calc(100% + 10px);
+      top:calc(50% - 19px);
+    }
+
+    @media screen and (max-width: $wrapper-width) {
+      line-height: 38px;
+      margin-bottom: .7em;
+      &:last-of-type {
+        margin-bottom: 0;
+      }
+    }
+  }
+  &__tickets {
+    //list-style-image: url('/assets/img/ticket.png');
+    &:before {
+      content: "";
+      background: url('/assets/img/ticket.png');
+
+    }
+  }
+  &__airplane {
+    //list-style-image: url('/assets/img/plane.png');
+    &:before {
+      content: "";
+      background: url('/assets/img/plane.png');
+    }
+
+  }
+  &__cash {
+    //list-style-image: url('/assets/img/money.png');
+    &:before {
+      content: "";
+      background: url('/assets/img/money.png');
+    }
+  }
+  li {
+    font-size: 32px;
+  }
+}

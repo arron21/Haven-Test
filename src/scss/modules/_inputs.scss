@@ -1,0 +1,73 @@
+label {
+  font-size: 18px;
+  display: block;
+  text-transform: uppercase;
+
+  span {
+    color: $red;
+  }
+  small {
+    text-transform: lowercase;
+  }
+  a {
+    color: $red;
+  }
+}
+input,select {
+  width: 100%;
+  border: 1px solid #071629;
+  background-color: #f1f1f3;
+  height: 44px;
+  line-height: 44px;
+  font-size: 18px;
+  padding: 0 .5em;
+
+  border-radius: 0;
+  appearance:none;
+}
+[type=checkbox], [type=radio] {
+  width: 20px;
+  height: 20px;
+}
+.select {
+  &__wrapper {
+    position: relative;
+
+    &:after {
+      content: "";
+      position: absolute;
+      background: url('/assets/img/red-caret.png');
+      width: 15px;
+      height: 10px;
+      right: 15px;
+      top: calc(50% - 5px);
+      background-repeat: no-repeat;
+    }
+  }
+
+}
+
+.checkbox {
+  margin: 5px;
+  label {
+    min-height: 20px;
+    padding-left: 30px;
+    margin-bottom: 0;
+    font-weight: 400;
+    cursor: pointer;
+    text-transform: none;
+  }
+  input {
+    position: absolute;
+    margin-left: -30px;
+
+
+  }
+  input[type=checkbox]:checked {
+    background: red;
+  }
+}
+
+button {
+  cursor: pointer;
+}

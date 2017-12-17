@@ -1,0 +1,27 @@
+.wrapper {
+  width: $wrapper-width;
+  max-width: 100%;
+  margin: auto;
+}
+
+body {
+  background: url('/assets/img/bg.png') no-repeat center center fixed;
+  background-size: cover;
+}
+
+.hero-image {
+  margin-bottom: 30px;
+  @media screen and (max-width: $wrapper-width){
+    margin: auto;
+    margin-bottom: 30px;
+    display: block;
+  }
+}
+
+a {
+  text-decoration: underline;
+}
+
+.red {
+  color: $red;
+}
