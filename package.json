@@ -1,21 +1,18 @@
 {
-  "name": "arronhaventest",
-  "title": "about 4 hours of work after a hell of a day",
+  "name": "haven test",
+  "title": "Haven UI Code Test",
+  "description": "This is built ontop of FastShell for sake of compelting the task ASAP. It was a codetest for a company called Haven.",
   "author": "Arron McCrory",
-  "url": "https://arronmccrory.com",
-  "version": "1.0",
+  "url": "https://arronmccrory.com/",
+  "version": "1.0.0",
   "license": "MIT",
-  "repository": {
-    "type": "git",
-    "url": "http://github.com/arron21"
-  },
   "devDependencies": {
     "browser-sync": "^2.11.1",
     "gulp": "^3.9.0",
     "gulp-autoprefixer": "^3.1.0",
+    "gulp-concat": "^2.6.1",
     "gulp-cssnano": "^2.1.0",
     "gulp-header": "^1.7.1",
-    "gulp-imagemin": "^3.2.0",
     "gulp-jshint": "^2.0.0",
     "gulp-rename": "^1.2.2",
     "gulp-sass": "^2.1.1",
@@ -23,5 +20,10 @@
     "gulp-uglify": "^1.5.1",
     "gulp-util": "^3.0.8",
     "jshint": "^2.8.0"
+  },
+  "dependencies": {
+    "gulp-image-resize": "^0.12.0",
+    "gulp-imagemin": "^4.0.0",
+    "node-sass": "^4.7.2"
   }
 }

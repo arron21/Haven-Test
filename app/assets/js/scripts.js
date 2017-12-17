@@ -1,9 +1,9 @@
 /*!
- * arronhaventest
- * about 4 hours of work after a hell of a day
- * https://arronmccrory.com
+ * haven test
+ * Haven UI Code Test
+ * https://arronmccrory.com/
  * @author Arron McCrory
- * @version 1.0
+ * @version 1.0.0
  * Copyright 2017. MIT licensed.
  */
 (function ($, window, document, undefined) {
